@@ -1,9 +1,7 @@
-/**
- * Use CommonJS export so PostCSS and Vercel can correctly load the configuration in a Node environment.
- */
+// postcss.config.js
 module.exports = {
   plugins: {
-    tailwindcss: {},
+    '@tailwindcss/postcss': {},
     autoprefixer: {},
   },
 };
