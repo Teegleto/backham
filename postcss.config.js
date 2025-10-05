@@ -1,8 +1,7 @@
-// postcss.config.js
+// Tailwind v3: use tailwindcss directly as the PostCSS plugin
 module.exports = {
-  // Use @tailwindcss/postcss instead of tailwindcss.
   plugins: {
-    '@tailwindcss/postcss': {},
+    tailwindcss: {},
     autoprefixer: {}
   }
 };
