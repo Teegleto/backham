@@ -1,6 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* src/index.css */
 @import "tailwindcss";
-/* your global styles below if any */
-/* You can add global styles to this file */
+
+/* Your custom global styles (optional) */
+html, body, #root {
+  height: 100%;
+}
+body {
+  margin: 0;
+}
