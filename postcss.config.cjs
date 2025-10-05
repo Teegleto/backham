@@ -1,4 +1,4 @@
-// Tailwind v3: use tailwindcss directly as the PostCSS plugin
+// postcss.config.cjs
 module.exports = {
   plugins: {
     tailwindcss: {},
