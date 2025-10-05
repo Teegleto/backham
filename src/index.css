@@ -1,7 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+// src/index.jsx
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-/* optional globals */
-html, body, #root { height: 100%; }
-body { margin: 0; }
+// ✅ Tailwind CSS entry:
+import './index.css'
+
+import App from './App.jsx'
+
+ReactDOM.render(<App />, document.getElementById('root'))
