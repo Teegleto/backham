@@ -1,8 +1,6 @@
-/* Tailwind v4 uses a single import */
+/* src/index.css */
 @import "tailwindcss";
 
-/* Optional: your global styles */
-html, body, #root {
-  height: 100%;
-}
+/* optional global styles */
+html, body, #root { height: 100%; }
 body { margin: 0; }
