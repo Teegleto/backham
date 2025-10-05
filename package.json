@@ -6,18 +6,19 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview --port 5173"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
 
-    "tailwindcss": "^4.0.0",
+    "tailwindcss": "^4.1.10",
     "@tailwindcss/postcss": "^8.0.0",
     "postcss": "^8.4.31",
     "autoprefixer": "^10.4.21"
   },
   "devDependencies": {
-    "vite": "^4.5.0"
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^4.0.0"
   }
 }
