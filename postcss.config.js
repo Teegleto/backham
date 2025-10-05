@@ -1,6 +1,6 @@
-// Use the Tailwind v4 PostCSS plugin package (not "tailwindcss").
-// Keep CommonJS export so Node/Vercel can load it.
+// postcss.config.js
 module.exports = {
+  // Use @tailwindcss/postcss instead of tailwindcss.
   plugins: {
     '@tailwindcss/postcss': {},
     autoprefixer: {}
